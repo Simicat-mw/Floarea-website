@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dear My Flower</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #1b3b2f;
+      font-family: 'Georgia', serif;
+      color: #f4e8d4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    }
+    .qr-container {
+      margin-top: 30px;
+    }
+    .qr-container img {
+      width: 150px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Dear My Flower</h1>
+  <img src="flower-card.jpg" alt="Felicitare cu mesaj" />
+  <div class="qr-container">
+    <p>Scanează codul QR pentru a reveni aici:</p>
+    <img src="qr-code.png" alt="QR Code" />
+  </div>
+</body>
+</html>
